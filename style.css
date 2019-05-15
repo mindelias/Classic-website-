@@ -1,0 +1,202 @@
+.bg-img {
+    width: 100% !important;
+    background: url(" images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: blue; */
+    /* height: 550px; */
+    /* background-position-x: initial;
+     background-position-y: initial; */
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: initial;
+    background-attachment: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.cent {
+    background-position: center;
+}
+
+.over-cover::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background: rgba(9, 179, 239, 0.9);
+    background: -moz-linear-gradient(left, rgba(9, 179, 239, 0.9) 0%, rgba(30, 80, 226, 0.9) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(9, 179, 239, 0.9)), color-stop(100%, rgba(30, 80, 226, 0.9)));
+    /* background: -webkit-linear-gradient(left, rgba(9, 179, 239, 0.9) 0%, rgba(30, 80, 226, 0.9) 100%); */
+    background: -o-linear-gradient(left, rgba(9, 179, 239, 0.9) 0%, rgba(30, 80, 226, 0.9) 100%);
+    background: -ms-linear-gradient(left, rgba(9, 179, 239, 0.9) 0%, rgba(30, 80, 226, 0.9) 100%);
+    background: linear-gradient(to right, rgba(9, 179, 239, 0.9) 0%, rgba(30, 80, 226, 0.9) 100%);
+}
+
+.box-shadow {
+    position: relative;
+    z-index: 9;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-inverse {
+    background: blue;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-size: 17px;
+    /* height: 1em;  */
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0;
+    font-weight: 500 !important;
+    line-height: 24px;
+}
+
+.line>li {
+    /* border-bottom: 0px solid white; */
+    transition: border  2s ease 1s;
+    margin: 5px 5px 0px;
+}
+
+.line>li:hover {
+    border-bottom: 2px solid white;
+    /* transition: border  2s linear 1s */
+    
+     
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar {
+    padding: 50px 0px 50px 0px;
+}
+
+.fixed {
+    position: fixed !important;
+}
+
+.banner.carousel-indicators {
+    bottom: inherit;
+    left: inherit;
+    width: 25px;
+    right: 0;
+    top: 50%;
+    margin-top: -60px;
+    margin-right: 15px;
+}
+
+.banner-text {
+    color: #fff;
+    font-family: 'sans-serif';
+    margin: 8% 0% 5%;
+}
+
+.banner-text h1 {
+    margin-bottom: 30px;
+    text-shadow: 0px 20px 10px rgba(0, 0, 0, 0.1);
+    /* margin-top: 5%; */
+    margin: 5%;
+    letter-spacing: 2px;
+    /* position: relative;
+     */
+}
+
+.banner-text h1 small {
+    font-size: 18px;
+}
+
+.iq-font-white {
+    color: white;
+}
+
+.iq-tw-8 {
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100px
+}
+
+.iq-tw-5 {
+    font-weight: 500;
+}
+
+h5 {
+    margin: 0% 5% 0% 5%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0px;
+    text-align: center;
+    float: right;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ion-icon {
+    font-size: 32px;
+    color: white;
+    margin: 5% 5% 5%;
+}
+
+.carousel {
+    position: relative;
+}
+
+.img-one {
+    /* margin-right: 25%; */
+    /* height: 50% !important; */
+    top: 10%;
+    position: relative;
+}
+
+img {
+    height: 80% !important;
+    width: 90%!important;
+}
+
+.list-inline li {
+    display: inline;
+}
+.animated>img,.animated>h1{
+    animation: animated 5s ease 2s infinite alternate both;
+}
+.animated.list-inline>li{
+    animation: animated 5s ease 2s infinite alternate both;
+}
+
+.main-content{
+    position:  absolute;
+    margin: 50px 0px 20px 0px;
+}
+.heading-title>h2{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 80px;
+}
