@@ -49,12 +49,12 @@
 }
 
 .navbar-light .navbar-brand {
-    color: white;
+    color: white !important;
     font-family: 'Poppins', sans-serif;
 }
 
 .navbar-light .navbar-nav>li>a {
-    color: white;
+    color: white !important;
     font-size: 17px;
     /* height: 1em;  */
     margin: 10px;
@@ -130,6 +130,12 @@
 .iq-tw-5 {
     font-weight: 500;
 }
+.iq-tw-6 {
+    font-weight: 600;
+    line-height: 80px;
+    font-size: 30px;
+}
+
 
 h5 {
     margin: 0% 5% 0% 5%;
@@ -174,7 +180,7 @@ ion-icon {
     position: relative;
 }
 
-img {
+.only {
     height: 80% !important;
     width: 90%!important;
 }
@@ -191,14 +197,37 @@ img {
 
 .main-content{
     position:  absolute;
-    margin: 50px 0px 20px 0px;
 }
+    
 .heading-title>h2{
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     line-height: 80px;
+    font-size: 50px;
+    
 }
 
+.center{
+    margin: 30px 0px 50px 50px;
+}
+
+.center>p{
+    font-size:15px;
+}
+
+.iq-fancy-box{
+    background: wheat;
+    height: 70px;
+    padding: 30px;
+    font-size: 12px;
+    margin: 0px 0px 20px 30px
+
+
+}
+.fance{
+    
+}
+ 
 
 @media only screen and (max-device-width: 768px){
     .navbar-nav{
